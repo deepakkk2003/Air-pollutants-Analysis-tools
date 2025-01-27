@@ -1,0 +1,134 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-shadow: rgb(200, 85, 85);
+  }
+  
+  /* Root Element Styling */
+  :root {
+    padding: 2vw;
+    background-image: url("image2.jpg");  /* First background image */
+    background-position: center top, center bottom; /* Position first image at top, second at bottom */
+    background-repeat: no-repeat, no-repeat; /* Prevent images from repeating */
+    background-size: cover, cover; /* Ensure both images cover the full width */
+    width: 100%;
+    height: 150vh;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Heading Styles */
+  .heading {
+    text-align: center;
+    font-family: 'Fira Code', monospace;
+    font-size: 3rem;
+    margin-bottom: 60px;
+  }
+  
+  /* Sub-heading Styles */
+  .sub-heading {
+    margin: 20px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+  }
+  
+  /* Location Container Styles */
+  .location-container {
+    margin: 40px 0;
+  }
+  
+  /* Location Input Box Styles */
+  .loc-input {
+    border: 3px solid #328abd;
+    font-size: 1rem;
+    padding: 8px;
+    border-radius: 6px;
+    margin: 10px;
+    width: 270px;
+  }
+  
+  /* Invalid Location Input Box */
+  .loc-input:invalid {
+    border: 3px solid #d34545;
+  }
+  
+  /* Search Button Styles */
+  .search-btn {
+    padding: 10px 14px;
+    background-color: #269fe6;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 4px;
+    color: #fff;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  /* Hello Bro Text Styles */
+  .hellobro span {
+    font-size: 2rem;
+  }
+  
+  /* Air Quality Component Styles */
+  .air-quality, .arr, .air-quality-status {
+    font-size: 4rem;
+    font-weight: 700;
+  }
+  
+  .component-names {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .component-val {
+    font-size: 1.2rem;
+    margin-left: 20px;
+    color: aqua;
+  }
+  
+  .air-info {
+    display: flex;
+  }
+  
+  /* Section Styles */
+  .sect {
+    padding-top: 200px;
+    padding-left: 100px;
+  }
+  
+  .sect h3, .sect h2 {
+    font-size: 3rem;
+  }
+  
+  /* Footer Styles */
+  footer {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  /* Component Container Layout */
+  .component-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 200px;
+  }
+  
+  /* Background Overlay Styling */
+  .background-overlay {
+    background-color: rgba(0, 0, 0, 0.036);
+    backdrop-filter: blur(1px);
+    min-height: 100px;
+    font-size: 3rem;
+    width: 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
